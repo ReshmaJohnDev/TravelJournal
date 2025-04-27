@@ -14,12 +14,7 @@ import journalData from "./data.js";
 const journalElements = journalData.map((journal) => {
   return (
     <Entry
-      img={journal.img}
-      title={journal.title}
-      country={journal.country}
-      googleMapsLink={journal.googleMapsLink}
-      dates={journal.dates}
-      text={journal.text}
+      journals = {journal}
     />
   );
 });
