@@ -14,7 +14,7 @@ import journalData from "./data.js";
 const journalElements = journalData.map((journal) => {
   return (
     <Entry
-      journals = {journal}
+      {...journal}
     />
   );
 });
